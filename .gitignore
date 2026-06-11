@@ -13,6 +13,9 @@ __pycache__/
 Lecture */output/
 motion_frame_*.jpg
 
+# YOLO weights (auto-downloaded on first run)
+*.pt
+
 # IDE / OS
 .vscode/
 .idea/

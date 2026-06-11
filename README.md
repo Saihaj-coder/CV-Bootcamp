@@ -15,6 +15,7 @@ pip install -r requirements.txt
 | Lecture | Topic | Folder |
 |---------|-------|--------|
 | 1 | OpenCV basics, image processing, motion detection | [Lecture 1](Lecture%201/) |
+| 2 | YOLO detection, tracking, counting, segmentation | [Lecture 2](Lecture%202/) |
 
 ## Project structure
 
@@ -31,4 +32,5 @@ pip install -r requirements.txt
 ## Notes
 
 - Run scripts from any directory; paths are resolved relative to each script.
-- Large or generated outputs are saved to `output/` and excluded from git.
+- YOLO model weights (`yolov8n.pt`, `yolov8n-seg.pt`) auto-download on first run and are excluded from git.
+- Large or generated outputs are saved to `output/` and excluded from git — re-run the scripts to recreate them.
