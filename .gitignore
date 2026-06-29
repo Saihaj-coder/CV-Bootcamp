@@ -13,8 +13,12 @@ __pycache__/
 Lecture */output/
 motion_frame_*.jpg
 
-# YOLO weights (auto-downloaded on first run)
+# YOLO / PyTorch weights (auto-downloaded or trained locally)
 *.pt
+*.pth
+
+# Jupyter
+.ipynb_checkpoints/
 
 # IDE / OS
 .vscode/
