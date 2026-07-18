@@ -11,7 +11,10 @@ __pycache__/
 
 # Generated outputs
 Lecture */output/
+YOLO Project */output/
 motion_frame_*.jpg
+output_with_license*.mp4
+output_with_license*.avi
 
 # YOLO / PyTorch weights (auto-downloaded or trained locally)
 *.pt
